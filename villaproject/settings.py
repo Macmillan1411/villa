@@ -136,3 +136,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend" #for emails to use the console for the mean time before we configure SMTP
 DEFAULT_FROM_EMAIL = "admin@villa.com" #default admin email
+
+USE_THOUSAND_SEPARATOR = True
